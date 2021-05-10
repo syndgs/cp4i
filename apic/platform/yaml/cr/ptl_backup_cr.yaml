@@ -1,0 +1,7 @@
+apiVersion: portal.apiconnect.ibm.com/v1beta1
+kind: PortalBackup
+metadata:
+  generateName: apic-ptl-bup-
+spec:
+  type: all
+  crType: create

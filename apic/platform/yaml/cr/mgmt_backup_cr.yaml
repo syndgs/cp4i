@@ -1,0 +1,8 @@
+apiVersion: management.apiconnect.ibm.com/v1beta1
+kind: ManagementBackup
+metadata:
+  generateName: apic-mgmt-
+spec:
+  type: full
+  crType: create
+  clusterName: apic-mgmt
